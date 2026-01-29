@@ -3,23 +3,23 @@ import { HighlightedText } from "./HighlightedText"
 
 const philosophyItems = [
   {
-    title: "Минимализм со смыслом",
+    title: "Быстрый выезд",
     description:
-      "Каждый элемент имеет свое назначение и пространство для дыхания. Мы убираем лишнее, чтобы раскрыть то, что действительно важно.",
+      "Приедем в удобное для вас время. Работаем без выходных — вызов мастера в день обращения или на следующий день.",
   },
   {
-    title: "Архитектурный подход",
+    title: "Профессиональный подход",
     description:
-      "Планировки, вдохновленные структурой, ритмом и материальностью. Здания, которые говорят через пропорции и свет.",
+      "Опытные сантехники с собственным инструментом. Качественная установка унитазов любой сложности и конфигурации.",
   },
   {
-    title: "Естественная динамика",
+    title: "Честные цены",
     description:
-      "Движение поддерживает восприятие, но никогда не отвлекает. Анимация, которая ощущается естественно, как свет, скользящий по комнате.",
+      "Никаких скрытых доплат. Озвучиваем стоимость до начала работ — она не изменится в процессе.",
   },
   {
-    title: "Вневременная эстетика",
-    description: "Элегантный, спокойный и долговечный визуальный язык. Дизайн, который превосходит тренды и стареет с достоинством.",
+    title: "Гарантия качества",
+    description: "Даём гарантию на все выполненные работы. Если что-то пойдёт не так — вернёмся и исправим бесплатно.",
   },
 ]
 
@@ -53,11 +53,11 @@ export function Philosophy() {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
           {/* Left column - Title and image */}
           <div className="lg:sticky lg:top-32 lg:self-start">
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наша философия</p>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Почему мы</p>
             <h2 className="text-6xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-              Дизайн с
+              Работаем
               <br />
-              <HighlightedText>намерением</HighlightedText>
+              <HighlightedText>профессионально</HighlightedText>
             </h2>
 
             <div className="relative hidden lg:block">
@@ -72,7 +72,7 @@ export function Philosophy() {
           {/* Right column - Description and Philosophy items */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Архитектура - это больше, чем конструкция. Это то, как мы воспринимаем мир. Мы создаем пространства, которые питают человеческий дух.
+              Установка унитаза — это не просто монтаж. Это комфорт вашей семьи и спокойствие на долгие годы. Мы делаем работу качественно с первого раза.
             </p>
 
             {philosophyItems.map((item, index) => (
